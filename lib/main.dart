@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:marketfeedclone/view/splash_screen/splashscreen.dart';
+import 'package:marketfeed_clone/view/splash_screen/splashscreen.dart';
 
 void main() {
   runApp(Marketfeed());
