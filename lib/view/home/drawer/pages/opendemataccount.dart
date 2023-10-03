@@ -18,7 +18,7 @@ class OpenDematAccount extends StatelessWidget {
         child: Stack(
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 340, top: 70),
+              padding: const EdgeInsets.only(left: 445, top: 60),
               child: Container(
                 height: 30,
                 width: 30,
@@ -28,16 +28,17 @@ class OpenDematAccount extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 332, top: 62),
+              padding: const EdgeInsets.only(left: 436, top: 52),
               child: IconButton(
-                  onPressed: () {
-                    Navigator.of(context).pop(context);
-                  },
-                  icon: Icon(
-                    Icons.close_rounded,
-                    color: Colors.black,
-                    size: 30,
-                  )),
+                onPressed: () {
+                  Navigator.of(context).pop(context);
+                },
+                icon: Icon(
+                  Icons.close_rounded,
+                  color: Colors.black,
+                  size: 30,
+                ),
+              ),
             ),
             SizedBox(
               width: 250,

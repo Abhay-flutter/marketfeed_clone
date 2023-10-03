@@ -16,12 +16,14 @@ class _LogoutState extends State<Logout> {
       content: Text("Don you want to Logout ?"),
       actions: <Widget>[
         TextButton(
-          onPressed: () => Navigator.pushAndRemoveUntil(
-              context,
-              MaterialPageRoute(
-                builder: (context) => RegisterScreen(),
-              ),
-              (route) => false),
+          onPressed: () {
+            Navigator.pushAndRemoveUntil(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => RegisterScreen(),
+                ),
+                (route) => false);
+          },
           child: Text("Yes"),
         ),
         TextButton(
