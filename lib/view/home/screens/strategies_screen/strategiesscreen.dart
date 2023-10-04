@@ -40,7 +40,7 @@ class _StrategiesScreenState extends State<StrategiesScreen> {
                     fit: BoxFit.cover),
                 borderRadius: BorderRadius.circular(20),
               ),
-              height: 200,
+              height: 190,
               width: 350,
             ),
           ),
